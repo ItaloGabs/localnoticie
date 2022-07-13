@@ -1,0 +1,368 @@
+/*
+Theme Name: Games
+Theme URI: http://localhost/teste/
+Description: Aprendendo Wordpress
+Author: Italo Gabriel
+Author URI: http://localhost/teste/
+Version: 1.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&family=IBM+Plex+Sans:wght@100&display=swap');
+
+
+.clear{
+    clear: both;
+}
+.barra {
+    height: 600px;
+    background: url(assets/images/background/bg-header.jpg) center top;
+    padding: 10px 0;
+}
+
+.barra2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.barra3{
+    height: 368px;
+    background: url(assets/images/background/ilha.jpg) center top;
+    display: block;
+    padding: 10px 0;
+}
+
+.gameover {
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.barra .info-page{
+    padding-top: 120px;
+    margin: 0 auto;
+    width: 860px;
+    text-align: center;
+}
+
+.barra .info-page h2{
+    color: #fff;
+    font-size: 30px;
+}
+.barra .info-page p{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.user {
+    width: 50px;
+    height: 49px;
+    left: 1328px;
+    top: 10px;
+    color: #ffffff;
+}
+
+.menu-acesso {
+    width: 50px;
+    height: 49px;
+    right: 1328px;
+    top: 10px;
+    color: #ffffff;
+}
+
+.footer-2 {
+    background-color: rgb(104, 104, 104);
+    padding: 30px 0;
+}
+.footer-2 p{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 27px;
+}
+
+.soc li{
+    display: inline-block;
+}
+
+.footer-2 .soc{
+    float: right;
+}
+
+body {
+    background-color: #cacaca !important;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open-Sans', sans-serif !important;
+
+    
+
+}
+
+
+.iframme{
+    height: 385px;
+}
+
+.menu li {
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 33px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-size: 33px;
+}
+
+
+
+
+
+
+.offcanvas {
+    background-color: #C4C4C4 !important;
+    background-clip: border-box !important;
+}
+
+.menu-titulo {
+    position: sticky;
+    width: 78px;
+    height: 54px;
+    left: 142px;
+    top: 22px;
+
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+
+    color: #000000;
+
+}
+
+.linha {
+    position: absolute;
+    width: 264px;
+    height: 0px;
+    left: 56px;
+    top: 73px;
+
+    border: 1px solid #000000;
+    transform: rotate(0.22deg);
+} 
+
+.body-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.menu-topicos {
+    width: 6em;
+    height: 1.8rem;
+    top: 11.89%;
+    transform: rotate(-90deg);
+    
+}
+
+
+
+
+/* CRUMBS */
+#crumbs a, #crumbs span{
+    color: #fff;
+}
+#crumbs{
+    color: #fff;
+}
+
+/* BLOG */
+.wrap{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.wrap2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.videos{
+    padding: 30px 0;
+    background-color: #FFF;
+}
+.videos h2{
+    text-align: center;
+}
+
+.blog{
+    padding: 10px 0;
+}
+
+.blog h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    color: #383838;
+}
+
+.liste-post{
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.liste-post img{
+    float: left;
+    margin-right: 20px;
+    width: 360px !important;
+    height: 300px !important;
+}
+
+.segundo-post img{
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.segundo-post .caixa-conteudo-post{
+    float: left;
+}
+
+.botao{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #60d3b1;
+    color: #fff;
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 339px;
+}
+
+.caixa-conteudo-post{
+    float: right;
+    width: 520px;
+    padding: 10px;
+}
+
+.caixa-conteudo-post h2{
+    text-align: left;
+    margin-top: 0;
+}
+
+.caixa-conteudo-post a{
+    display: inline-block;
+    width: 115px;
+}
+
+/* GALERIA */
+.galeria{
+    background: #fff;
+}
+
+.galeria h2, .galeria p{
+    color: #fff;
+    text-align: center;
+}
+
+/* pagina interna */
+.bg-page{
+    display: block;
+    height: 365px;
+}
+.bg-page h2{
+    padding-top: 140px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0;
+}
+
+/* widgets */
+.widgets{
+    background-color: #fff;
+    padding: 20px 0;
+}
+.widgets .box{
+    float: left;
+    width: 40%;
+    padding: 20px;
+    
+}
+
+/* paginacao */
+.paginacao {
+    display: flex;
+    width: 70px;
+    
+}
+  
+  .paginacao a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  .paginacao span{
+    color: black !important;
+    float: left !important;
+    padding: 8px 16px !important;
+    text-decoration: none !important;
+    transition: background-color .3s !important;
+    border: 1px solid #ddd !important;
+    background-color: #fff !important;
+  }
+  
+  .paginacao a.active {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border: 1px solid #4CAF50 !important;
+  }
+  
+  .paginacao a:hover:not(.active) {background-color: #ddd;}
+
+
+  /* texto dos paginas */
+
+.texto{
+        text-align: center;
+        padding: 3.5rem;
+        
+}
+
+
+.popup{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.thumb_post img{
+    width: 100%;
+    border-radius: 18%;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
