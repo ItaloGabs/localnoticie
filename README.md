@@ -1,8 +1,13 @@
 Este é meu projeto de WORDPRESS mostando algumas funções que tenho noção junto com a linguagem em PHP, que futuramente irei melhorar!
 
-RECOMENDO FAZER A IMPORTAÇÃO:
+RECOMENDO FAZER:
+Alterar nome da pasta para localnoticie,
+Quando for criar o banco de dados no phpadmin, deixar o nome do banco como 'word',
 Caminho para ter o arquivo do backup do banco: wp-content>themes>Localnoticie>assets>sql
-So exportar para o PHPADMIN
+So importar para o PHPADMIN,
+Acessar localhost/localnoticie/wp-admin e alterar a aparencia para Localnoticie.
+
+pronto!
 
 USUARIO: admin
 SENHA: admin
